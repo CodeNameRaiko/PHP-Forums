@@ -1,0 +1,226 @@
+:root {
+--section-bg-color:linear-gradient(rgb(62, 64, 189) 10%, navy 100%, deepskyblue);
+--section-border:  solid 1px black;
+--font:  Arial, Helvetica, sans-serif;
+--form-bg-color: navy;
+--form-padding: 1em;
+--form-display: grid;
+--color: white;
+--form-width: 400px;
+}
+
+html {
+    background: rgb(73,86,182);
+    background: linear-gradient(144deg, rgba(73,86,182,1) 4%, rgba(82,36,91,1) 90%);
+    height:100%; 
+}
+
+nav {
+    display: flex;  
+    width: 100%;
+}
+
+nav li, nav a {
+    list-style: none;
+    text-decoration: none;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ul {
+    display: flex;
+    justify-content:  flex-end;
+    align-content: center !important; 
+    align-items: center;
+    width: 100%;
+}
+
+.img {
+    height: 50px;
+}
+
+.li {
+    padding: 1em;
+}
+
+.ul:nth-child(1)  {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+body {
+    margin: 0 20%;
+}
+
+.wrapper {
+    margin-top: 280px; 
+    text-align: center;
+}
+
+.lead {
+    color:white;  
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 30px 0;
+} 
+
+.b  {
+    height: 50px;
+    width: 140px;
+    margin:20px 10px;
+    border-radius: 5px; 
+    border:none;
+    background: transparent;
+    border: white solid 1px;
+    color: white;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 200ms ease;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.b:hover {
+    border: solid 3px gainsboro;
+}
+
+.b:active { 
+    background: rgb(45, 45, 121);
+}
+
+footer {
+    background-color: rgb(50, 15, 85);
+    padding: 2em;
+    position: absolute;
+    left: 0;
+    right:0; 
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    background: var(--form-bg-color);
+    padding: var(--form-padding); 
+    width: 450px;
+}
+
+form {
+    display: var(--form-display); 
+    font-family: var(--font); 
+    width: var(--form-width);
+}
+
+form label, form h1 {
+    color: var(--color);
+}
+
+
+form input {
+    background: transparent; 
+    border: solid 2px white;
+    padding: .5em; 
+    color: var(--color);
+}
+
+.signup-btn {
+    margin:20px 0 0 0; 
+    padding: 1em;
+    align-self: center; 
+}
+
+footer li, footer a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.logo  {
+    display: flex; 
+    justify-content: flex-start !important; 
+    color: white; 
+    width: 100%; 
+    float: left;
+}
+
+.section {
+    background: blue;
+    position: absolute; 
+}
+
+.section.left {
+    left:0;
+    border-radius:5px;
+    width: 300px;
+    height: 70vh;
+    text-align: center;
+    background: var(--section-bg-color);
+    border: var(--section-border);
+    color: var(--color);
+    font-family: var(--font);
+    
+    
+}
+
+.section.left h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.section.right {
+    right:0;
+    border-radius:5px;
+    width: 300px;
+    height: 70vh;
+    
+    text-align: center;
+    background: var(--section-bg-color);
+    border: var(--section-border);
+    color: var(--color);
+    font-family: var(--font);
+    
+    
+}
+
+.main-section {
+    height: 70vh;
+    width: 100vw;
+    border-radius:5px;
+    text-align: center;
+    background: var(--section-bg-color);
+    border: var(--section-border);
+    color: var(--color);
+    font-family: var(--font);
+}
+
+
+
+
+
+span {
+    width:100%;
+} 
+
+.flex {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.add {
+    padding-left: 10px;
+}
+
+.inp {
+    background: transparent; 
+    border: solid 2px white;
+    padding: .2em;
+    margin-right: 5px; 
+    color: var(--color);
+    border-radius: 4px;
+}
+
